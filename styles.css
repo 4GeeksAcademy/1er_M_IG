@@ -1,0 +1,73 @@
+body{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.container{
+    
+    background-color: white;
+    width: 400px;
+    height: auto;
+}
+
+.post-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px;
+}
+
+.derecha{
+    display: flex;
+    align-items: center;
+    
+}
+
+.post-header-derecha-1{
+    margin-left: 10px;
+    font-size: 30px;
+    
+}
+
+.post-header-derecha-2{
+    margin-left: 10px;
+}
+
+.izquierda{
+    margin-right: 10px;
+    font-size: 30px;
+}
+
+.post-img img{
+    width: 400px;
+}
+
+.post-icons{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 10px;
+    padding-top: 10px;
+}
+
+.icons_3{
+    display: flex;
+    
+}
+
+.heart, .comment, .send{
+    margin-left: 10px;
+    font-size: 30px;
+}
+.guardar{
+    font-size: 30px;
+}
+
+.a, .b{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+
